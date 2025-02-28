@@ -1,0 +1,354 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  background-color: #444;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+div {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  flex:1;
+}
+
+button:hover {
+  background-color: #155618;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top:100px;
+}
+
+   section {
+    padding: 2em;
+}
+#book_img{
+  height:100px;
+  width:100px;
+}
+
+
+#cart {
+    display: none;
+}
+
+#cart h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+#cartItems {
+    list-style: none;
+    padding: 0;
+}
+
+#cartItems li {
+    margin-bottom: 10px;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.one{
+  background-image: url(https://images.unsplash.com/photo-1616237272803-8258dd2481ce?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 300px;
+}
+.two{
+  background-image: url(https://tse1.mm.bing.net/th?id=OIP.ZYmCAZAPFz2qs8D-PvGWQwHaEp&pid=Api&P=0&h=180);
+  background-size: cover;
+  background-position: 300px;
+}
+.three{
+  background-image: url(https://images.unsplash.com/photo-1556711905-4bd1b6603275?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 300px;
+}
+.four{
+  background-image: url(https://plus.unsplash.com/premium_photo-1674440623627-8258b3698047?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 300px;
+}
+.five{
+  background-image: url(https://images.unsplash.com/photo-1603190287605-e6ade32fa852?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 300px;
+}
+.six{
+  background-image: url(https://media.istockphoto.com/id/1250581414/photo/blue-double-exposure-of-money-coins-stacking-with-bar-graph-for-financial-and-investment.jpg?s=1024x1024&w=is&k=20&c=1GId_Ztp9LTZ757d4aVCdSS4e20vGupw8ICX9vK9m9I=);
+  background-size: cover;
+  background-position: 300px;
+}
+.seven{
+  background-image: url(https://blog.udemy.com/wp-content/uploads/2014/05/bigstock-History-56161577.jpg);
+  background-size: cover;
+  background-position: 300px;
+}
+.eight{
+  background-image: url(https://tse1.mm.bing.net/th?id=OIP.IObY91Qe_jhqQokZDW2WxAHaCu&pid=Api&P=0&h=180);
+  background-size: cover;
+  background-position: 300px;
+}
+.nine{
+  background-image: url(https://tse1.mm.bing.net/th?id=OIP.QESPWdIuXLpSkq33q7XWSAHaE8&pid=Api&P=0&h=180);
+  background-size: cover;
+  background-position: 300px;
+}
+.ten{
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.dLxBZlpp3X1IdRA_090twAHaE8&pid=Api&P=0&h=180);
+  background-size: cover;
+  background-position: 300px;
+}
+.eleven{
+  background-image: url(https://www.epigeum.com/custom/uploads/resampled/teach-word-scrabble-letters-wooden-wallpaper-nbgkhqahyispmthjcrizlbyryz4vpf6p4dofmyc7v6.jpg);
+  background-size: cover;
+  background-position: 300px;
+}
+.twelve{
+  background-image: url(https://holidayturn.com/wp-content/uploads/2017/09/International-travel.jpg);
+  background-size: cover;
+  background-position: 300px;
+}
+
+.main a{
+  text-decoration: none solid ;
+  font-weight:bold ;
+  color: rgb(224, 9, 9);
+  
+}
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.book {
+  width: 25%;
+  margin: 10px;
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+}
+
+.book h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.book p {
+  margin-top: 5px;
+}
+.book:hover {
+  transform: scale(1.05);
+}
+.book {
+  width: 20%;
+  margin: 5px;
+}
+.book button:active {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+.book-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center; 
+}
+.book button{
+  margin:4px 2px;
+}
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.book {
+  width: 20%;
+  margin: 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.book:hover {
+  transform: scale(1.05);
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+}
+
+.book h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.book p {
+  margin-top: 5px;
+}
+
+.book button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  margin: 4px 2px;
+  width: 100%; 
+}
+
+.book button:hover {
+  background-color: #155618;
+  transition: 0.5s ease-in-out;
+}
+
+.book-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+button.book {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#transition:hover {
+  transform: scale(1.05);
+}
+#loginModal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
